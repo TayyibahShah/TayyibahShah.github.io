@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -128,10 +162,34 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 <iframe height="800" width="90%" frameborder="no" src="https://tayyibahshah.shinyapps.io/scatter/"> </iframe>
-<p>This analysis delves into the trends of alcohol-specific deaths across genders and examines the impact of the COVID-19 pandemic on these statistics. The data highlights significant disparities between male and female death rates, as well as notable increases in mortality rates over the years.</p>
-<p>Consistent with previous years, the data reveals a stark gender gap in alcohol-specific mortality rates. In 2022, the rate of alcohol-specific deaths for males remained approximately double that of females. This persistent gap underscores the need for targeted interventions and support systems tailored to address gender-specific challenges related to alcohol consumption and its consequences.</p>
-<p>Comparing with 2019, there have been statistically significant increases in the alcohol-specific death rate across regions, notably in England, Wales, and Scotland. The data shows that in 2022, the number of alcohol-specific deaths registered was 4.2% higher than in 2021 and a substantial 32.8% higher than in 2019, the last pre-COVID-19 pandemic year. Furthermore, the total number of deaths recorded in 2022 reached 10,048, marking the highest number on record.</p>
-<p>The observed increase in alcohol-specific deaths aligns with the timeline of the COVID-19 pandemic, suggesting a potential correlation between the two phenomena. The pandemic likely played a significant role in exacerbating mental health challenges, leading to increased alcohol consumption and related fatalities. Factors such as social isolation, unemployment, financial strain, and loss of loved ones may have contributed to this uptick in alcohol-related mortality.</p>
+<p>The interactive scatter plot graph (Figure 1) provides a visually engaging representation of male mortality rates across 2018-2022 and the IMD quintiles. Its interactive features allow users to explore the data dynamically, hovering over each data point to view specific information, such as the exact number of male deaths and the corresponding year and IMD quintile. Furthermore, the ability to zoom in and out and pan across the graph enables users to focus on specific regions of interest, facilitating a more detailed examination of the data.&nbsp;</p>
+<p>Across this timeframe, there appears to be a noticeable fluctuation in male mortality rates. In 2018, the number of male deaths ranged from 25 to 91 across different quintiles, with a generally decreasing trend as the IMD quintile increased. However, the data also indicates some anomalies, such as a slight increase in male deaths in the second quintile compared to the first.&nbsp;</p>
+<p>Moving to 2019, the overall trend seems to continue, with male mortality rates generally decreasing as IMD quintiles increase, although with some variations. Notably, there is a significant drop in male deaths from 2018 to 2019 in the first quintile, followed by a slight increase in the second quintile.</p>
+<p>In 2020, there is a further decrease in male mortality rates across most quintiles compared to the previous years. However, it’s essential to acknowledge that the COVID-19 pandemic emerged during this period, which could have influenced mortality trends, potentially leading to changes in health-seeking behaviour, access to healthcare services, and other factors affecting mortality rates.</p>
+<p>In 2021, the data suggests a mixed pattern, with some quintiles experiencing a decrease in male deaths compared to 2020, while others show an increase. This variability could be attributed to a combination of factors, including ongoing effects of the pandemic, changes in socioeconomic conditions, and healthcare policies.</p>
+<p>Finally, in 2022, there seems to be a general increase in male mortality rates across most quintiles compared to the previous year. This uptick may warrant further investigation into potential underlying causes, such as shifts in healthcare access, lifestyle factors, or broader societal influences.</p>
+<p>Overall, the analysis highlights the dynamic nature of male mortality rates over the years, influenced by a multitude of factors that require careful consideration and ongoing monitoring to inform targeted interventions aimed at reducing mortality and improving public health outcomes.</p>
+<p>In Figure 2, the line plot illustrates the trend of female deaths across the years from 2018 to 2022. The x-axis represents the years, while the y-axis represents the number of female deaths. Each line on the plot corresponds to a specific IMD quintile, with higher quintiles indicating lower socioeconomic status. The plot utilises clear labelling, with the x-axis labelled as “Year” and the y-axis labelled as “Female Deaths.” This labelling enhances the interpretability of the graph, allowing viewers to easily understand the variables being depicted.</p>
+<p>Analysis of the plot reveals variability in the number of female deaths over the study period. In 2018, the plot displays a range of female mortality rates across different IMD quintiles, with higher quintiles generally associated with lower mortality rates. Notable deviations from this trend are observed, particularly in the second and third quintiles, where female mortality rates are relatively higher compared to adjacent quintiles.</p>
+<p>As we progress through the years, patterns emerge. In 2019, there is a slight decrease in female mortality rates across most quintiles compared to the previous year, suggesting potential improvements in health outcomes. This downward trend continues into 2020, with further reductions observed in female deaths across different socioeconomic strata.</p>
+<p>However, in 2021, the plot reveals a mixed pattern, with some quintiles experiencing a decline in female mortality rates compared to 2020, while others show an increase. This variability underscores the complex interplay of factors influencing female mortality, including socioeconomic status, healthcare access, and underlying health conditions.</p>
+<p>Finally, in 2022, there appears to be a general increase in female mortality rates across most quintiles compared to the previous year. This upward trend may warrant closer examination to identify potential underlying causes and inform targeted interventions aimed at reducing female mortality and improving public health outcomes.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"C:/Users/yucho/Documents/TAYYIBAH PROJECT/TayyibahShah.github.io/Rplot2.png"</span>) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<p><img src="Rplot2.png" class="img-fluid"></p>
+</div>
+</div>
+<p>Figure 3 depicts female deaths per 100,000 population over the years from 2018 to 2022. Similar to the first graph, the x-axis represents the years, while the y-axis represents the number of female deaths per 100,000 population. Again, each line on the plot corresponds to a specific IMD quintile, with higher quintiles indicating lower socioeconomic status. The plot employs clear labelling, with the x-axis labelled as “Year” and the y-axis labelled as “Female Deaths per 100,000.” This labelling facilitates comprehension of the variables being represented.</p>
+<p>Analysis of the plot reveals fluctuations in female mortality rates per 100,000 population over the study period. Similar to the graph of female deaths, there is variability across different IMD quintiles, with higher quintiles generally associated with higher mortality rates. However, deviations from this trend are observed, particularly in the second and third quintiles, where female mortality rates per 100,000 population may be relatively higher compared to adjacent quintiles.</p>
+<p>Overall, both graphs provide valuable insights into female mortality trends over time, highlighting the dynamic nature of female health outcomes and the importance of considering socioeconomic factors in public health interventions aimed at reducing mortality rates and improving overall well-being.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"C:/Users/yucho/Documents/TAYYIBAH PROJECT/TayyibahShah.github.io/Rplot1.png"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<p><img src="Rplot1.png" class="img-fluid"></p>
+</div>
+</div>
+<p>In conclusion, the analysis of female and male mortality trends reveals nuanced patterns and variations over the years. While both genders exhibit fluctuations in mortality rates across different socioeconomic strata, there are notable differences in the magnitude and trajectory of these trends. Female mortality rates, while generally lower compared to males, display distinct patterns influenced by factors such as socioeconomic status, healthcare access, and underlying health conditions. Conversely, male mortality rates tend to exhibit greater variability and may be influenced by additional factors such as occupational hazards and lifestyle choices. Overall, understanding the complex interplay of these factors is essential for informing targeted interventions aimed at reducing mortality rates and improving public health outcomes for both genders.</p>
 
 
 
