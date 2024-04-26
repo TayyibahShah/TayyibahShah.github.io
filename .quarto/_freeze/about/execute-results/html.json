@@ -1,7 +1,7 @@
 {
-  "hash": "383c1d07ec26b9212362d709a7d8f3c4",
+  "hash": "d85482d60cf17da7dceaa17eef115e1e",
   "result": {
-    "markdown": "---\ntitle: \"About\"\n---\n\n\nAbout this site\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 2\n```\n:::\n:::\n",
+    "markdown": "---\ntitle: \"About\"\n---\n\n\nMy name is Tayyibah Shah. I am a student at the University of Sheffield and am currently on exchange at the National University of Singapore. I study Digital Media and Sociology.\n\nI chose this module to develop my coding skills in order to broaden my skillset. Coding is an important skill and therefore will broaden my career opportunities.\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 2\n```\n:::\n:::\n",
     "supporting": [],
     "filters": [
       "rmarkdown/pagebreak.lua"

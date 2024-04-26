@@ -3,7 +3,7 @@
     "path": "~/TAYYIBAH PROJECT/TayyibahShah.github.io/about.qmd",
     "project_path": "about.qmd",
     "type": "quarto_markdown",
-    "hash": "0",
+    "hash": "3730738666",
     "contents": "",
     "dirty": false,
     "created": 1714128342120.0,
@@ -16,14 +16,16 @@
         "Source": "Source",
         "docOutlineVisible": "1",
         "rmdVisualCollapsedChunks": "",
-        "rmdVisualModeLocation": "2:0"
+        "rmdVisualModeLocation": "367:0",
+        "cursorPosition": "0,0",
+        "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1714128358,
+    "lastKnownWriteTime": 1714128660,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1714128358298,
+    "last_content_update": 1714128660613,
     "read_only": false,
     "read_only_alternatives": []
 }
