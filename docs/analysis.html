@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>TayyibahShah - Alcohol-related deaths</title>
+<title>TayyibahShah - Analysis</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,40 +19,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -116,12 +82,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="./index.html" rel="" target="">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./about.html" rel="" target="">
  <span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./analysis.html" rel="" target="" aria-current="page">
+ <span class="menu-text">Analysis</span></a>
   </li>  
 </ul>
             <div class="quarto-navbar-tools ms-auto">
@@ -142,7 +112,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Alcohol-related deaths</h1>
+<h1 class="title">Analysis</h1>
 </div>
 
 
@@ -157,18 +127,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </header>
 
-<p>In recent years, there has been a concerning surge in alcohol-related deaths, despite concerted efforts through campaigns and initiatives aimed at addressing this issue. Despite these interventions, the prevalence of alcohol-related fatalities has remained stubbornly high. This persistence may be attributed to various factors, including a rise in mental health challenges, potentially exacerbated by periods of isolation during the COVID-19 pandemic. This data story aims to explore the fluctuation of alcohol-specific death rates across different deprivation quintiles from 2018 to 2022, shedding light on the potential intersections between socioeconomic status and alcohol-related mortality.</p>
-<p>The dataset utilised in this analysis is sourced from the Office of National Statistics website, spanning the years 2018 to 2022 and capturing the incidence of alcohol-related deaths. The dataset distinguishes between genders and categorises deaths based on the Index of Multiple Deprivation (IMD) quintile associated with the deceased individuals. The IMD quintile, ranging from 1 to 5, serves as an indicator of relative deprivation across small areas, with 1 representing the most deprived and 5 the least deprived regions.</p>
-<p>The key variables under scrutiny include the year of death registration, IMD quintile, male and female counts of deaths, and the corresponding rates per 1000 population. By focusing on these specific columns, the analysis aims to discern patterns in the distribution of alcohol-related deaths between genders and across different levels of deprivation. This approach allows for a comprehensive examination of whether gender disparities and the level of deprivation significantly influence the occurrence of alcohol-related fatalities.</p>
-<p>Alcohol consumption is deeply ingrained in societies worldwide, often playing multifaceted roles in people’s lives. For many, drinking alcohol is a means of socialising, celebrating, and unwinding after a long day. It can serve as a bonding activity, fostering camaraderie and connection among friends and family. Additionally, individuals may turn to alcohol as a coping mechanism, seeking temporary relief from stress, anxiety, or depression. However, alongside these perceived benefits, alcohol consumption can also lead to negative consequences. Excessive drinking can impair judgement, coordination, and cognitive function, increasing the risk of accidents, injuries, and violence. Furthermore, chronic alcohol abuse can contribute to a myriad of health issues, including liver disease, cardiovascular problems, and mental health disorders.</p>
-<p>The societal implications of alcohol-related deaths are profound, encompassing not only the loss of individual lives but also the strain on healthcare systems, the burden on families and communities, and the broader socio-economic ramifications. While there is evidence that the pandemic increased the number of individuals heavy drinking and the the increase in alcohol related deaths, the Lancet Gastroenterology and Hepatology (2022) stated that alcohol-related liver disease accounts for 60% of all liver disease in the UK, Even before COVID-19, trends had started to emerge of increases in alcohol-related hospital admissions and deaths. There are also disparities within the population, with more than half of hospital admissions and deaths from liver disease in 2020 occurring in the most deprived 40% of the population</p>
-<p>Understanding the complex motivations behind alcohol consumption is crucial for addressing the root causes of alcohol-related harm and implementing effective prevention and intervention strategies.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
-</div>
-</div>
+<iframe height="800" width="90%" frameborder="no" src="https://tayyibahshah.shinyapps.io/scatter/"> </iframe>
+<p>This analysis delves into the trends of alcohol-specific deaths across genders and examines the impact of the COVID-19 pandemic on these statistics. The data highlights significant disparities between male and female death rates, as well as notable increases in mortality rates over the years.</p>
+<p>Consistent with previous years, the data reveals a stark gender gap in alcohol-specific mortality rates. In 2022, the rate of alcohol-specific deaths for males remained approximately double that of females. This persistent gap underscores the need for targeted interventions and support systems tailored to address gender-specific challenges related to alcohol consumption and its consequences.</p>
+<p>Comparing with 2019, there have been statistically significant increases in the alcohol-specific death rate across regions, notably in England, Wales, and Scotland. The data shows that in 2022, the number of alcohol-specific deaths registered was 4.2% higher than in 2021 and a substantial 32.8% higher than in 2019, the last pre-COVID-19 pandemic year. Furthermore, the total number of deaths recorded in 2022 reached 10,048, marking the highest number on record.</p>
+<p>The observed increase in alcohol-specific deaths aligns with the timeline of the COVID-19 pandemic, suggesting a potential correlation between the two phenomena. The pandemic likely played a significant role in exacerbating mental health challenges, leading to increased alcohol consumption and related fatalities. Factors such as social isolation, unemployment, financial strain, and loss of loved ones may have contributed to this uptick in alcohol-related mortality.</p>
 
 
 

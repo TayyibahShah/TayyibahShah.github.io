@@ -4,5 +4,11 @@
   },
   "about.qmd": {
     "about.html": "2e6b4631"
+  },
+  "scatter/analysis.qmd": {
+    "analysis.html": "7d95d2f2"
+  },
+  "analysis.qmd": {
+    "analysis.html": "d5c140dd"
   }
 }
