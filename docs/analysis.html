@@ -20,40 +20,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -179,18 +145,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>However, in 2021, the plot reveals a mixed pattern, with some quintiles experiencing a decline in female mortality rates compared to 2020, while others show an increase. This variability underscores the complex interplay of factors influencing female mortality, including socioeconomic status, healthcare access, and underlying health conditions.</p>
 <p>Finally, in 2022, there appears to be a general increase in female mortality rates across most quintiles compared to the previous year. This upward trend may warrant closer examination to identify potential underlying causes and inform targeted interventions aimed at reducing female mortality and improving public health outcomes.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"C:/Users/yucho/Documents/TAYYIBAH PROJECT/TayyibahShah.github.io/Rplot2.png"</span>) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
-<p><img src="Rplot2.png" class="img-fluid"></p>
+<p><img src="Rplot2.png" width="650" height="500"></p>
 </div>
 </div>
 <p>Figure 3 depicts female deaths per 100,000 population over the years from 2018 to 2022. Similar to the first graph, the x-axis represents the years, while the y-axis represents the number of female deaths per 100,000 population. Again, each line on the plot corresponds to a specific IMD quintile, with higher quintiles indicating lower socioeconomic status. The plot employs clear labelling, with the x-axis labelled as “Year” and the y-axis labelled as “Female Deaths per 100,000.” This labelling facilitates comprehension of the variables being represented.</p>
 <p>Analysis of the plot reveals fluctuations in female mortality rates per 100,000 population over the study period. Similar to the graph of female deaths, there is variability across different IMD quintiles, with higher quintiles generally associated with higher mortality rates. However, deviations from this trend are observed, particularly in the second and third quintiles, where female mortality rates per 100,000 population may be relatively higher compared to adjacent quintiles.</p>
 <p>Overall, both graphs provide valuable insights into female mortality trends over time, highlighting the dynamic nature of female health outcomes and the importance of considering socioeconomic factors in public health interventions aimed at reducing mortality rates and improving overall well-being.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"C:/Users/yucho/Documents/TAYYIBAH PROJECT/TayyibahShah.github.io/Rplot1.png"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
-<p><img src="Rplot1.png" class="img-fluid"></p>
+<p><img src="docs/Rplot1.png" width="650" height="500"></p>
 </div>
 </div>
 <p>In conclusion, the analysis of female and male mortality trends reveals nuanced patterns and variations over the years. While both genders exhibit fluctuations in mortality rates across different socioeconomic strata, there are notable differences in the magnitude and trajectory of these trends. Female mortality rates, while generally lower compared to males, display distinct patterns influenced by factors such as socioeconomic status, healthcare access, and underlying health conditions. Conversely, male mortality rates tend to exhibit greater variability and may be influenced by additional factors such as occupational hazards and lifestyle choices. Overall, understanding the complex interplay of these factors is essential for informing targeted interventions aimed at reducing mortality rates and improving public health outcomes for both genders.</p>

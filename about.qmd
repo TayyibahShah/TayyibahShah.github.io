@@ -4,8 +4,6 @@ title: "About"
 
 My name is Tayyibah Shah. I am a student at the University of Sheffield and am currently on exchange at the National University of Singapore. I study Digital Media and Sociology.
 
-I chose this module to develop my coding skills in order to broaden my skillset. Coding is an important skill and therefore will broaden my career opportunities.
+My hobbies include reading, photography, watching TV shows, and hanging out with my friends.
 
-```{r}
-1 + 1
-```
+I chose this module to develop my coding skills in order to broaden my skillset. Coding is an important skill and therefore will broaden my career opportunities.

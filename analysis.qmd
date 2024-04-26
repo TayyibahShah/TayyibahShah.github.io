@@ -29,9 +29,8 @@ However, in 2021, the plot reveals a mixed pattern, with some quintiles experien
 
 Finally, in 2022, there appears to be a general increase in female mortality rates across most quintiles compared to the previous year. This upward trend may warrant closer examination to identify potential underlying causes and inform targeted interventions aimed at reducing female mortality and improving public health outcomes.
 
-```{r}
-knitr::include_graphics("C:/Users/yucho/Documents/TAYYIBAH PROJECT/TayyibahShah.github.io/Rplot2.png") 
-
+```{r, out.height= "500px",out.width= "650px",echo=FALSE,eval=TRUE}
+knitr::include_graphics("C:/Users/yucho/Documents/TAYYIBAH PROJECT/TayyibahShah.github.io/Rplot2.png")
 ```
 
 Figure 3 depicts female deaths per 100,000 population over the years from 2018 to 2022. Similar to the first graph, the x-axis represents the years, while the y-axis represents the number of female deaths per 100,000 population. Again, each line on the plot corresponds to a specific IMD quintile, with higher quintiles indicating lower socioeconomic status. The plot employs clear labelling, with the x-axis labelled as "Year" and the y-axis labelled as "Female Deaths per 100,000." This labelling facilitates comprehension of the variables being represented.
@@ -40,8 +39,8 @@ Analysis of the plot reveals fluctuations in female mortality rates per 100,000 
 
 Overall, both graphs provide valuable insights into female mortality trends over time, highlighting the dynamic nature of female health outcomes and the importance of considering socioeconomic factors in public health interventions aimed at reducing mortality rates and improving overall well-being.
 
-```{r}
-knitr::include_graphics("C:/Users/yucho/Documents/TAYYIBAH PROJECT/TayyibahShah.github.io/Rplot1.png")
+```{r, out.height= "500px",out.width= "650px",echo=FALSE,eval=TRUE}
+knitr::include_graphics("C:/Users/yucho/Documents/TAYYIBAH PROJECT/TayyibahShah.github.io/docs/Rplot1.png")
 ```
 
 In conclusion, the analysis of female and male mortality trends reveals nuanced patterns and variations over the years. While both genders exhibit fluctuations in mortality rates across different socioeconomic strata, there are notable differences in the magnitude and trajectory of these trends. Female mortality rates, while generally lower compared to males, display distinct patterns influenced by factors such as socioeconomic status, healthcare access, and underlying health conditions. Conversely, male mortality rates tend to exhibit greater variability and may be influenced by additional factors such as occupational hazards and lifestyle choices. Overall, understanding the complex interplay of these factors is essential for informing targeted interventions aimed at reducing mortality rates and improving public health outcomes for both genders.
