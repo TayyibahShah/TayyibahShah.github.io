@@ -4,6 +4,10 @@ title: "Alcohol-related deaths"
 
 In recent years, there has been a concerning surge in alcohol-related deaths, despite concerted efforts through campaigns and initiatives aimed at addressing this issue. Despite these interventions, the prevalence of alcohol-related fatalities has remained stubbornly high. This persistence may be attributed to various factors, including a rise in mental health challenges, potentially exacerbated by periods of isolation during the COVID-19 pandemic. This data story aims to explore the fluctuation of alcohol-specific death rates across different deprivation quintiles from 2018 to 2022, shedding light on the potential intersections between socioeconomic status and alcohol-related mortality.
 
+```{r}
+knitr::include_graphics("C:/Users/yucho/Documents/TAYYIBAH PROJECT/TayyibahShah.github.io/drinking.jpeg") 
+```
+
 The dataset utilised in this analysis is sourced from the Office of National Statistics website, spanning the years 2018 to 2022 and capturing the incidence of alcohol-related deaths. The dataset distinguishes between genders and categorises deaths based on the Index of Multiple Deprivation (IMD) quintile associated with the deceased individuals. The IMD quintile, ranging from 1 to 5, serves as an indicator of relative deprivation across small areas, with 1 representing the most deprived and 5 the least deprived regions.
 
 The key variables under scrutiny include the year of death registration, IMD quintile, male and female counts of deaths, and the corresponding rates per 1000 population. By focusing on these specific columns, the analysis aims to discern patterns in the distribution of alcohol-related deaths between genders and across different levels of deprivation. This approach allows for a comprehensive examination of whether gender disparities and the level of deprivation significantly influence the occurrence of alcohol-related fatalities.
@@ -13,7 +17,3 @@ Alcohol consumption is deeply ingrained in societies worldwide, often playing mu
 The societal implications of alcohol-related deaths are profound, encompassing not only the loss of individual lives but also the strain on healthcare systems, the burden on families and communities, and the broader socio-economic ramifications. While there is evidence that the pandemic increased the number of individuals heavy drinking and the the increase in alcohol related deaths, the Lancet Gastroenterology and Hepatology (2022) stated that alcohol-related liver disease accounts for 60% of all liver disease in the UK, Even before COVID-19, trends had started to emerge of increases in alcohol-related hospital admissions and deaths. There are also disparities within the population, with more than half of hospital admissions and deaths from liver disease in 2020 occurring in the most deprived 40% of the population
 
 Understanding the complex motivations behind alcohol consumption is crucial for addressing the root causes of alcohol-related harm and implementing effective prevention and intervention strategies.
-
-```{r}
-1 + 1
-```
