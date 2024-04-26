@@ -1,0 +1,34 @@
+---
+title: "Diary entry 4"
+author: "Tayyibah"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+List the visualizations that you are going to use in your project (What are the variables that you are going to plot? How will it answer your larger question? Why are these the best visualizations to convey your story?)
+
+A visualisation of male number of deaths and the number over the years-scatter plot
+
+A scatter plot of the number of female alcohol related deaths over the year & a graph on female deaths per 1000.
+
+**(2)** How do you plan to make it interactive? (What features of ggplot2/shiny/markdown do you plan to use to make the story interactive) ,
+
+Shiny-graph 1 interactive. I used a slider and hover to make it interactive so people can see themselves the exact number of deaths for each point. The slider will be focused on the IMD quintile.
+
+**(3)** What concepts incorporated in your project were taught in the course and which ones were self-learnt? (Create a table with topics in one column and Weeks in the other to indicate which concept taught in which week is being used. Leave the entry of the Week column empty for self-learnt concepts)
+
+Concepts taught in class:
+
+shiny, basis of R, setup of website
+
+self-learnt-plotly and hover
+
+*Include the challenges and errors that you faced and how you overcame them.*
+
+Everything was a challenge. I had to restart many times from not doing my github correctly and the setup of it or whether it was simply an error message and having to tackle what the issue was such as showing my interactive graph on my website.

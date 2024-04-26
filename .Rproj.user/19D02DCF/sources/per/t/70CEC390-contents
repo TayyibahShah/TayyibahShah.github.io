@@ -1,0 +1,38 @@
+---
+title: "Diary Entry 2"
+author: "Tayyibah"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+**(1)** What is the question that you are going to answer? (**Title**: One sentence that ends with a question mark that could act like the title of your data story),
+
+-   How have alcohol-specific death rates varied across different deprivation quintiles from 2018 to 2022?
+
+    **(2)** Why is this an important question? (Answer: 3 sentences, each of which has some evidence, e.g., *“According to the United Nations...”* to justify why the question you have chosen is important),
+
+    This question is important as it highlights how alcohol related deaths are a serious issues and what factors play a part. For example my dataset is focused on the years 2018-2022 which coincided with the covid pandemic. There was a huge increase in the number of deaths meaning that mental health played a huge part in the increase due to people being isolated, away from family, dealing with death of family members or friends, unemployment etc had a toll on their mental health and led to them relying on drinking as an escape.
+
+    **(3)** Which rows and columns of the dataset will be used to answer this question? (Answer: Actual names of the variables in the dataset that you plan to use).
+
+    I will be focusing on 6 columns.
+
+-   Year of death registration
+
+-   Male number of deaths
+
+-   Male number of death per 1000
+
+-   Female number of deaths
+
+-   Female number of deaths per 1000
+
+    *Include the challenges and errors that you faced and how you overcame them.*
+
+-   The major challenge was cleaning up my data which took a long time. Cleaning it up and trying to import also proved to be a major issue which took a long time. One way of overcoming it was being certain how I saved the file and that everything was save in the correct file.

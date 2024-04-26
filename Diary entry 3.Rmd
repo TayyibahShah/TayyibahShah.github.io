@@ -1,0 +1,28 @@
+---
+title: "Diary entry 3"
+author: "Tayyibah"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+-   Write a short report on the following,\
+
+    Reflect on your experience doing the project using R
+
+    -   R was a much more difficult program than I had imagined. I encountered many issues which forced me to have to restart many times, especially with my project. It requires a lot of technical work and making sure that every single detail is correct. Despite its difficulties, I am proud to have become stronger in my coding skills using R.
+
+        What have you learned in NM2207, and how can that be helpful in your future career?
+
+    -   I want to go into journalism or the social media field. By learning how to create data visualisations it benefits me as it allows me to gain the skills needed to appear more valuable as my website or work would be much more improved from creating my own data visualisations instead of someone elses.
+
+        Try to identify use-cases within your specialization and future industry that you might benefit by using R.
+
+Journalism-data visualisations in articles.
+
+Social media-website building.
